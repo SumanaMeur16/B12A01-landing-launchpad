@@ -35,6 +35,9 @@ nav{
   text-align: center;
   padding: 100px 0;
 }
+.nav-content{
+  color: #252432;
+}
 .btn-all{
     padding: 15px 30px;
     background-color: #4E47FF;
@@ -42,7 +45,9 @@ nav{
     color: white;
     border-radius: 5px;
 }
-
+.button:hover{
+  background-color:rgba(0, 0, 255, 0.432);
+}
 .action-section{
   display: flex;
   justify-content: space-evenly;
@@ -51,7 +56,12 @@ nav{
 .action-image{
   border-radius: 20px;
 }
-
+.action-text{
+  color: #25243286;
+}
+.action-heading{
+  color: #252432;
+}
 .productive-section{
   background-color: #4d47ff23;
   border-radius: 15px;
@@ -60,6 +70,7 @@ nav{
 }
 .productive-content{
   padding: 15px 0;
+  color: #252432;
 }
 .productive-number{
   display: flex;
@@ -69,6 +80,8 @@ nav{
 .produc-numbers{
   font-weight:bold;
   color: #4E47FF;
+  font-size: 60px;
+  margin: 0 0;
 }
 .productive-text{
   color:rgba(0, 0, 0, 0.514);
@@ -77,6 +90,7 @@ nav{
 .input-class{
   display: flex;
   flex-direction: column;
+  padding: 5px;
 }
 input{
   width: 210px;
@@ -107,6 +121,7 @@ input{
 }
 .footer-content{
   padding: 0px;
+  color:#8987A1;
 }
 footer section h2{
   color: #4E47FF;
@@ -122,4 +137,7 @@ footer section h2{
   text-decoration: none;
   color:#8987A1;
   margin: 0 10px;
+}
+.footer-logo{
+  margin: 0 0;
 }
