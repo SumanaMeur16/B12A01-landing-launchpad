@@ -79,12 +79,26 @@ input{
 .get-in-touch{
   display: flex;
   justify-content: space-evenly;
-  text-align: center;
-}
-.footer-section{
+  align-items: center;
 }
 
+.footer-main{
+  background-color:bisque;
+  padding: 20px;
+}
+.footer-section{
+  text-align: center;
+}
+.footer-content{
+  padding: 10px 0 10px;
+}
+
+.anchor-main{
+  display: flex;
+  justify-content: space-evenly;
+}
 .anchor-class{
   text-decoration: none;
   color: black;
+  margin: 0 20px;
 }
