@@ -48,6 +48,10 @@ nav{
 .button:hover{
   background-color:rgba(0, 0, 255, 0.432);
 }
+.button-width{
+  margin-top: 10px;
+  width: 100%;
+}
 .action-section{
   display: flex;
   justify-content: space-evenly;
