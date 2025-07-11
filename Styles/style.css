@@ -1,3 +1,8 @@
+section{
+  margin: 80px 0;
+}
+
+
 /* shared styles */
 
 .raleway-normal {
@@ -31,4 +36,13 @@ nav{
     border: none;
     color: white;
     border-radius: 5px;
+}
+
+.action-section{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.action-image{
+  border-radius: 20px;
 }
