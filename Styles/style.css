@@ -87,11 +87,14 @@ nav{
   color:rgba(0, 0, 0, 0.514);
 }
 
+
 .input-class{
   display: flex;
   flex-direction: column;
   padding: 5px;
+  row-gap: 10px;
 }
+
 input{
   width: 210px;
   border-radius: 4px;
@@ -109,7 +112,7 @@ input{
 }
 
 .get-touch-text{
-  font-size: xx-large;
+  font-size: 40px;
 }
 
 .footer-main{
