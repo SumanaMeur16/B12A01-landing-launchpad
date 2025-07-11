@@ -46,3 +46,22 @@ nav{
 .action-image{
   border-radius: 20px;
 }
+
+.productive-section{
+  background-color: #4d47ff23;
+  border-radius: 15px;
+  text-align: center;
+  margin: 0 150px;
+}
+.productive-content{
+  padding: 15px 0;
+}
+.productive-number{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 0 15px 0;
+}
+
+.footer-section{
+  align-items: center;
+}
